@@ -1,0 +1,14 @@
+name = "auth-worker"
+main = "src/index.ts"
+compatibility_date = "2023-12-11"
+
+[vars]
+SUPABASE_URL = "https://ndtzrcwicdzgsozmofsa.supabase.co"
+SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5kdHpyY3dpY2R6Z3Nvem1vZnNhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzM2MjcyNjYsImV4cCI6MjA0OTIwMzI2Nn0.A9foVJUHJkN8S3xT7hMFlNAbZvlFrhP63Xb1dCAIWvI"
+JWT_SECRET = "J3wNuG+mjj1/BxzP4mf0axOYUlhz8pqz7PS3q+MUkT8uebwgGI6wrL0ZAtpSh4ZZfhaF1HUfW26WIA+oIRcmVw==" 
+PASSWORD_SALT = "kT7@mP#N9v%B2j"
+[env.development]
+vars = { }  
+
+[env.production]
+vars = { }  
